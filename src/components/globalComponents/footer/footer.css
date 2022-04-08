@@ -1,0 +1,43 @@
+.footer {
+  background-color: rgb(2, 125, 129);
+  padding: 2%;
+}
+.footer-one {
+  width: 30%;
+  flex-direction: column;
+}
+.footer-one {
+  line-height: 1px;
+}
+.footer-one > h1 {
+  font-size: 26px;
+}
+.footer-one > p {
+  font-size: 12px;
+}
+/* .footer-one>h1{
+  font-size: 26px;
+} */
+.footer-two {
+  width: 20%;
+}
+.footer-three {
+  width: 20%;
+}
+.footer-four {
+  width: 30%;
+  flex-direction: column;
+}
+.f_l_two {
+  font-size: 23px;
+}
+.f_l_three {
+  font-size: 13px;
+  line-height: 17px;
+}
+.payment {
+  justify-content: space-between;
+}
+.payment > img {
+  width: 18%;
+}

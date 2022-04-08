@@ -1,0 +1,80 @@
+.singleitem {
+  width: 90%;
+  margin: 20px auto;
+  border: 1px solid blue;
+  border-radius: 8px;
+  display: flex;
+  padding: 10px;
+}
+.singleitem-left {
+  width: 20%;
+  padding: 4%;
+}
+.singleitem-right {
+  width: 80%;
+}
+.singleitem-left > img {
+  width: 100%;
+}
+.singleitem-dec {
+  display: flex;
+}
+.singleitem-dec-left {
+  width: 80%;
+  font-size: 17px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+.singleitem-dec-right {
+  width: 20%;
+  padding: 12px;
+  background-color: transparent;
+  height: 50px;
+}
+.singleitem-drop {
+  width: 100%;
+  display: flex;
+  padding: 7px 0;
+}
+.cart-delete {
+  width: 42%;
+  height: 93%;
+  margin: auto 0;
+  display: block;
+  cursor: pointer;
+}
+.cart-brand {
+  margin: 0;
+  font-size: 12px;
+  color: gray;
+}
+.cart-product-dec {
+  margin: 0;
+  font-size: 12px;
+}
+.singleitem-drop > div {
+  margin: 0 20px 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.singleitem-drop > div > p {
+  margin: 0;
+  font-size: 12px;
+  color: red;
+}
+.singleitem-drop > div > p > del {
+  color: gray;
+  font-size: 14px;
+}
+.singleitem-drop > select {
+  height: 40px;
+  width: 20%;
+  border-radius: 6px;
+  outline: none;
+}
+.cart-deal-date {
+  font-size: 13px;
+  margin: 0;
+}

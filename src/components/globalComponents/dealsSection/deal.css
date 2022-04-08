@@ -1,0 +1,29 @@
+.deal {
+  position: relative;
+  margin: 2% 0;
+  padding-top: 2%;
+}
+.deal > .inner-deal > .deal-one > h5 {
+  font-size: 13px;
+}
+.view-all {
+  margin-left: auto;
+  cursor: pointer;
+}
+.view-all:hover {
+  opacity: 0.8;
+}
+.deal-two {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+.deal-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 163px;
+  background: #fb7e944a;
+  width: 100%;
+  z-index: -1;
+}

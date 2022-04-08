@@ -1,0 +1,8 @@
+.inner-card-section {
+  display: flex;
+  justify-content: center;
+}
+.card-section {
+  background-color: rgb(235, 254, 255);
+  padding: 2%;
+}

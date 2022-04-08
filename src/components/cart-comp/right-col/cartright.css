@@ -1,0 +1,28 @@
+.cartright {
+  width: 40%;
+  padding: 5%;
+}
+.cart-coup {
+  border: 2px solid #027d81;
+  border-radius: 4px;
+  padding: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cart-coup > span {
+  color: #027d81;
+}
+.cart-coup > img {
+  filter: invert(1);
+}
+.cart-del {
+  background-color: #027d81;
+  border-radius: 4px;
+  padding: 9px;
+  color: white;
+  text-align: center;
+  height: fit-content;
+  width: 100%;
+  margin-top: 20px;
+}

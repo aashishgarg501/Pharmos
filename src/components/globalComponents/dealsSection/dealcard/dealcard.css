@@ -1,0 +1,21 @@
+.deal-card {
+  width: 12rem;
+  border: 1px solid gray;
+  padding: 10px 20px 0 20px;
+  border-radius: 10px;
+  margin: 0 1%;
+  background: white;
+}
+.deal-card > .deal-card-one {
+  height: 60%;
+}
+.deal-card-two > h5 {
+  font-size: 12px;
+}
+.deal-card-two > h6 {
+  margin: 0;
+  font-size: 10px;
+}
+.deal-card-two > span {
+  font-size: 10px;
+}

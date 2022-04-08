@@ -1,0 +1,50 @@
+.signin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+.inner-signin {
+  width: 35%;
+  height: 65vh;
+  padding: 1%;
+  box-shadow: 1px 12px 17px grey;
+}
+.inner-signin > .signin-dec {
+  font-size: 10px;
+  width: 70%;
+  margin: 20px auto;
+  color: gray;
+}
+.inner-signin > .forget {
+  font-size: 10px;
+  cursor: pointer;
+  width: 70%;
+  margin: 3px auto 10px auto;
+  text-align: right;
+}
+.inner-signin > .forget:hover {
+  opacity: 0.9;
+}
+.sign-in-button {
+  width: 55%;
+  margin: 20px auto 5px auto;
+  display: block;
+  padding: 7px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  background: #007a5e;
+  color: wheat;
+}
+.create-ac {
+  font-size: 10px;
+  text-align: center;
+}
+.create-ac > span {
+  cursor: pointer;
+  color: rgb(98, 98, 250);
+}
+.create-ac > span:hover {
+  color: blue;
+}

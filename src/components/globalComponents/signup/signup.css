@@ -1,0 +1,40 @@
+.signup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.inner-signup {
+  width: 35%;
+  height: 85vh;
+  padding: 1%;
+  box-shadow: 1px 12px 17px grey;
+}
+.signup-dec {
+  font-size: 10px;
+  width: 70%;
+  margin: 20px auto;
+  color: gray;
+}
+.sign-in-button {
+  width: 55%;
+  margin: 20px auto 5px auto;
+  padding: 7px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  background: #007a5e;
+  color: wheat;
+}
+.already-ac-up {
+  font-size: 10px;
+  text-align: center;
+}
+
+.already-ac-up > span {
+  cursor: pointer;
+  color: rgb(98, 98, 250);
+}
+.already-ac-up > span:hover {
+  color: blue;
+}

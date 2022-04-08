@@ -1,0 +1,16 @@
+.input-field {
+  display: flex;
+  width: 70%;
+  margin: 20px auto 0 auto;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 6px 10px;
+}
+.input-field > img {
+  width: 10%;
+}
+.input-field > input {
+  width: 90%;
+  border: none;
+  outline: none;
+}

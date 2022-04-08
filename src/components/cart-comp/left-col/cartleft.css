@@ -1,0 +1,15 @@
+.cartleft {
+  width: 60%;
+  height: fit-content;
+}
+.cart-heading {
+  display: flex;
+  width: 90%;
+  margin: 20px auto;
+  align-items: center;
+}
+.cart-add {
+  text-decoration: none;
+  font-size: 12px;
+  margin: 0 3px 0 auto;
+}

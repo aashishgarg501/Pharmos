@@ -1,0 +1,16 @@
+.inner-products {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+.products-background {
+  width: 100%;
+  height: 12rem;
+  position: absolute;
+  background: #f5f5ff;
+  z-index: -1;
+}
+
+.products > .container > h5 {
+  font-size: 13px;
+}

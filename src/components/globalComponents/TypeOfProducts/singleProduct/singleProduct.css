@@ -1,0 +1,27 @@
+.singleProduct {
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 10px 14px 5px 14px;
+  margin: 0 1%;
+  height: fit-content;
+  background-color: white;
+}
+.singleProduct-one {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.singleProduct-two {
+  margin-top: 10px;
+}
+.singleProduct-two > p {
+  line-height: 10px;
+}
+.singleProduct-two > h5 {
+  font-size: 14px;
+}
+.singleProduct-two > h5 {
+  font-size: 14px;
+}

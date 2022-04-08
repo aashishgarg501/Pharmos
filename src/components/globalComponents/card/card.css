@@ -1,0 +1,38 @@
+.card-style {
+  box-shadow: 7px 5px 21px -2px grey;
+  border-radius: 5px;
+  background: white;
+  width: 30%;
+  overflow: hidden;
+}
+.card-style > .card-title {
+  padding: 6%;
+  background: #ffc0cb4a;
+  color: #000000ad;
+}
+.card-style > .card-title > h1 {
+  font-size: 18px;
+}
+.card-style > .button-title {
+  padding: 8%;
+  position: relative;
+}
+.card-style > .button-title > .oil {
+  position: absolute;
+  width: 42%;
+  top: 0;
+  right: 0;
+  height: 100%;
+}
+.card-style > .button-title > button {
+  border: none;
+  outline: none;
+  padding: 8px 18px;
+  background: #1a8eb3;
+  border-radius: 5px;
+  color: white;
+  font-size: 12px;
+}
+.card-style > .button-title > button:hover {
+  opacity: 0.9;
+}

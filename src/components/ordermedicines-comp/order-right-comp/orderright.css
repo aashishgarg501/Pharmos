@@ -1,0 +1,54 @@
+.orderright {
+  width: 40%;
+  padding: 0 4%;
+}
+.order-via-pres {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(179, 179, 179, 0.329);
+  border-radius: 10px;
+  padding: 10px;
+  color: rgba(43, 41, 41, 0.753);
+  cursor: pointer;
+}
+.order-via-pres > img {
+  width: 10%;
+  margin-right: 20px;
+}
+.dontpres {
+  border: 1px solid rgba(179, 179, 179, 0.329);
+  border-radius: 10px;
+  padding: 10px;
+  width: 100%;
+  margin-top: 1rem;
+}
+.dontpres > div {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  color: rgba(43, 41, 41, 0.753);
+}
+.dontpres > div > img {
+  width: 20%;
+  margin-right: 20px;
+}
+.dontpres > ul {
+  width: 100%;
+  margin: 0 20px;
+  font-size: 12px;
+  padding: 0 5%;
+}
+.dontpres > button {
+  width: 70%;
+  background-color: rgb(2, 125, 129);
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
+  display: block;
+  margin: 1rem auto 10px auto;
+}

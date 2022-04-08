@@ -1,0 +1,104 @@
+.navbar {
+  background-color: rgb(2, 125, 129);
+  padding: 1% 0;
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+.navbar > .container > div {
+  width: 33%;
+}
+.logo_div {
+  width: 25% !important;
+  text-align: left;
+}
+.logo_div > img {
+  width: 50%;
+  height: 100%;
+  margin-right: auto;
+  display: block;
+}
+.logo_div > h1 > .navlink {
+  font-size: 28px;
+  color: white;
+}
+.logo_div > h1 > .navlink > span {
+  color: white;
+  font-size: 10px;
+  margin-left: auto;
+  width: 68%;
+  line-height: 2px;
+}
+/* .input {
+  width: 42%;
+} */
+.input > input {
+  width: 100%;
+  margin: 0 auto;
+  outline: none;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 5px;
+  margin-top: 3rem;
+  font-size: 12px;
+}
+/* .navLinks {
+  width: 33%;
+} */
+.navLinks > ul {
+  list-style: none;
+  display: flex;
+  width: 100%;
+  margin: auto 0 auto auto;
+  padding: 0;
+}
+.navLinks > ul > li {
+  color: white;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+}
+.navLinks > ul > li > .navlink {
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+  cursor: pointer;
+  margin: auto 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+}
+.navLinks > ul > li > .cartButtonImg {
+  /* filter: invert(1);
+  /* margin-right: 5px; */
+  /* width: 33%;  */
+  filter: invert(1);
+  /* margin-right: 5px; */
+  width: 22%;
+  margin-right: 4px;
+}
+.navLinks > ul > li:hover {
+  /* color: rgb(255, 255, 255, 0.8); */
+  filter: brightness(0.8);
+}
+.nav-one {
+  width: 30%;
+}
+.nav-two {
+  width: 30%;
+}
+.nav-two > .cart-link {
+  width: fit-content;
+}
+.nav-three {
+  width: 20%;
+}
+.nav-four {
+  width: 20%;
+}
